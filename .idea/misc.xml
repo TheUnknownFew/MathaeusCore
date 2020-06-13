@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ANTLRGenerationPreferences">
+    <option name="perGrammarGenerationSettings">
+      <list>
+        <PerGrammarGenerationSettings>
+          <option name="fileName" value="$PROJECT_DIR$/src/grammars/number.g4" />
+          <option name="autoGen" value="true" />
+          <option name="outputDir" value="C:\Users\zedla\ZDocs\Local\Programming\Personal Projects\Mathaeus\gen" />
+          <option name="libDir" value="" />
+          <option name="encoding" value="" />
+          <option name="pkg" value="zed.maetheus.api.parsers.number" />
+          <option name="language" value="Java" />
+        </PerGrammarGenerationSettings>
+        <PerGrammarGenerationSettings>
+          <option name="fileName" value="$PROJECT_DIR$/src/zed/maetheus/api/grammars/NumberGrammar.g4" />
+          <option name="autoGen" value="true" />
+          <option name="outputDir" value="C:\Users\zedla\ZDocs\Local\Programming\Personal Projects\Mathaeus\gen" />
+          <option name="libDir" value="" />
+          <option name="encoding" value="" />
+          <option name="pkg" value="zed.maetheus.parsers" />
+          <option name="language" value="Java" />
+        </PerGrammarGenerationSettings>
+      </list>
+    </option>
+  </component>
   <component name="CheckstyleConfigurable">
     <option name="suppFilterFilename" value="" />
     <option name="suppCommentFilter" value="false" />

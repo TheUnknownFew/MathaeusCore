@@ -1,11 +1,8 @@
-package zed.maetheus.api.parsers;
-
 /*  Number Parsing Grammar:
     1. <val>    ->  <first>
-                |   <first>.<deci>
     2. <first>  ->  <num>
                 |   <digit>
-                |   epsilon
+                |   <first>.<deci>
     3. <num>    ->  <cnum> | <ncnum>
     4. <cnum>   ->  <cap>
                 |   <cap><digit>
@@ -18,6 +15,3 @@ package zed.maetheus.api.parsers;
     7. <cap>    -> 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
     7. <digit>  -> 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
  */
-public class NumberParser {
-    // Test
-}
