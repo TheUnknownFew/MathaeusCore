@@ -4,21 +4,12 @@
     <option name="perGrammarGenerationSettings">
       <list>
         <PerGrammarGenerationSettings>
-          <option name="fileName" value="$PROJECT_DIR$/src/grammars/number.g4" />
+          <option name="fileName" value="$PROJECT_DIR$/src/main/antlr4/NumberGrammar.g4" />
           <option name="autoGen" value="true" />
-          <option name="outputDir" value="C:\Users\zedla\ZDocs\Local\Programming\Personal Projects\Mathaeus\gen" />
+          <option name="outputDir" value="D:\Projects\Personal\MaetheusCore\src\main\gen" />
           <option name="libDir" value="" />
           <option name="encoding" value="" />
-          <option name="pkg" value="zed.maetheus.api.parsers.number" />
-          <option name="language" value="Java" />
-        </PerGrammarGenerationSettings>
-        <PerGrammarGenerationSettings>
-          <option name="fileName" value="$PROJECT_DIR$/src/zed/maetheus/api/grammars/NumberGrammar.g4" />
-          <option name="autoGen" value="true" />
-          <option name="outputDir" value="C:\Users\zedla\ZDocs\Local\Programming\Personal Projects\Mathaeus\gen" />
-          <option name="libDir" value="" />
-          <option name="encoding" value="" />
-          <option name="pkg" value="zed.maetheus.parsers" />
+          <option name="pkg" value="zed.mathaeus.antlr4.number" />
           <option name="language" value="Java" />
         </PerGrammarGenerationSettings>
       </list>
@@ -43,10 +34,18 @@
     <option name="pathToUserRulesConfiguration" value="" />
     <option name="pathToJarWithRules" value="" />
   </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
   <component name="PreferredVcsStorage">
     <preferredVcsName>ApexVCS</preferredVcsName>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="SuppressionsComponent">
