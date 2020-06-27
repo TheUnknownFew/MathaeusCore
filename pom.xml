@@ -49,6 +49,10 @@
                 <groupId>org.antlr</groupId>
                 <artifactId>antlr4-maven-plugin</artifactId>
                 <version>4.8</version>
+                <configuration>
+                    <sourceDirectory>${basedir}/src/main/antlr4</sourceDirectory>
+                    <libDirectory>${basedir}/src/main/antlr4/zed/mathaeus/antlr4/parsers</libDirectory>
+                </configuration>
                 <executions>
                     <execution>
                         <goals>
